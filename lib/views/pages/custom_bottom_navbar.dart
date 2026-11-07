@@ -1,4 +1,4 @@
-import 'package:ecommerce_app/theme/app_color.dart';
+import 'package:ecommerce_app/utils/theme/app_color.dart';
 import 'package:ecommerce_app/views/pages/cart_page.dart';
 import 'package:ecommerce_app/views/pages/favorites_page.dart';
 import 'package:ecommerce_app/views/pages/home_page.dart';
@@ -77,7 +77,7 @@ class _CustomBottomNavbarState extends State<CustomBottomNavbar> {
       navBarBuilder: (navBarConfig) => Style7BottomNavBar(
         navBarConfig: navBarConfig,
         navBarDecoration: NavBarDecoration(
-          color: AppColors.background,
+          color: AppColors.whiteBackground,
           borderRadius: BorderRadius.circular(8),
         ),
         itemAnimationProperties: ItemAnimation(
